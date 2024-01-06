@@ -24,6 +24,7 @@ const triangle2 = {
 // better approach would be to create a class and create instances of the class
 
 class Triangle {
+  // 'this' refers to instance of the class
   getArea () {
     return 0.5 * this.a * this.b;
   }
