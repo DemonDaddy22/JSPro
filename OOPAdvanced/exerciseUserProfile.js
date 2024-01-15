@@ -20,6 +20,12 @@ class UserProfile {
   #email;
   #birthdate;
 
+  constructor (username, email, birthdate) {
+    this.#username = username;
+    this.#email = email;
+    this.#birthdate = birthdate;
+  }
+
   get username () {
     return this.#username;
   }
