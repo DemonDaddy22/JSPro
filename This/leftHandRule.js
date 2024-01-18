@@ -1,3 +1,5 @@
+// VALUE OF THIS IS DECIDED ONLY AT THE POINT OF FUNCTION EXECUTION
+
 // generally, the value of this is decided based on the value of the context in which the function is executed
 // the above rule holds mostly for arrow functions, but there can be exceptions when functions are created using function keyword
 
