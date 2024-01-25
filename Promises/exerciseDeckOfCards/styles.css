@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #02131F;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  padding: 4rem;
+}
+
+button {
+  background: linear-gradient(60deg, #6C91C5, #038C67);
+  outline: none;
+  padding: 1rem 1.25rem;
+  color: #FFF;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+button:hover,
+button:active {
+  filter: brightness(1.2);
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.cards {
+  position: relative;
+  margin: 10rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: absolute;
+}
