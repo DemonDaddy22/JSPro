@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styler</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="container">
+      <textarea id="input-text" placeholder="Enter your text here..." rows="5"></textarea>
+      <div id="controls">
+        <div class="form-group">
+          <input type="checkbox" id="uppercase" />
+          <label for="uppercase" class="form-label">Uppercase</label>
+        </div>
+        <div class="form-group">
+          <label for="colour" class="form-label">Choose colour</label>
+          <input type="color" id="colour" />
+        </div>
+        <div class="form-group">
+          <label for="size" class="form-label">Font size</label>
+          <select id="size" name="font-size">
+            <option value="16px">16px</option>
+            <option value="18px">18px</option>
+            <option value="20px">20px</option>
+            <option value="24px">24px</option>
+            <option value="28px">28px</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="family" class="form-label">Font family</label>
+          <select id="family" name="font-family">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Cournier New">Courier New</option>
+          </select>
+        </div>
+      </div>
+      <button id="submit-btn">Apply Styles</button>
+      <div id="output-text"></div>
+    </section>
+    <script src='./index.js'></script>
+  </body>
+</html>
