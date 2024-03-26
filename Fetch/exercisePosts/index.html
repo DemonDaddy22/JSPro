@@ -7,7 +7,15 @@
     <link href="./styles.css" rel="stylesheet">
   </head>
   <body>
-    <section id="posts"></section>
+    <main id="container">
+      <section id="input-container">
+        <h1>JSONPlaceholder Posts</h1>
+        <input type="text" placeholder="Post title" name="title" id="title" />
+        <textarea id="body" placeholder="Post body" rows="5"></textarea>
+        <button id="add-button">Add Post</button>
+      </section>
+      <section id="posts"></section>
+    </main>
     <script src='./index.js'></script>
   </body>
 </html>
